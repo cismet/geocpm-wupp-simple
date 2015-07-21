@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>single</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <useProjectArtifact>true</useProjectArtifact>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <includes>
+                <include>de.cismet.geocpm:geocpm-api</include>
+                <include>de.cismet.cids.custom.wupp:geocpm-wupp</include>
+                <include>de.cismet.commons:cismet-commons</include>
+                <include>org.slf4j:slf4j-api</include>
+                <include>org.slf4j:slf4j-log4j12</include>
+                <include>log4j:log4j</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+</assembly>
