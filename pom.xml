@@ -106,7 +106,7 @@
                     </descriptors>
                     <archive>
                         <manifest>
-                            <mainClass>de.cismet.cids.custom.wupp.geocpm.SimpleStarter</mainClass>
+                            <mainClass>de.cismet.cids.custom.wupp.geocpm.simple.SimpleStarter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
