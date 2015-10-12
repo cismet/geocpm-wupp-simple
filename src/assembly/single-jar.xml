@@ -14,6 +14,7 @@
             <includes>
                 <include>de.cismet.geocpm:geocpm-api</include>
                 <include>de.cismet.cids.custom.wupp:geocpm-wupp</include>
+                <include>de.cismet.cids.custom.wupp:geocpm-wupp-simple</include>
                 <include>de.cismet.commons:cismet-commons</include>
                 <include>org.slf4j:slf4j-api</include>
                 <include>org.slf4j:slf4j-log4j12</include>
